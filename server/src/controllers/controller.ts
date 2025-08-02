@@ -9,8 +9,8 @@ const controller = ({ strapi }: { strapi: Core.Strapi }) => ({
       const post = ctx.request.body;
       const canvas = createCanvas(post.bannerWidth, post.bannerHeight);
       const context = canvas.getContext('2d');
-      const numNext = post.title.split('\n').length;
-            numNext = (numNext > 0) ? numNext - 1 : 0;
+      let numNext = post.title.split('\n').length;
+          numNext = (numNext > 0) ? numNext - 1 : 0;
 
       context.fillStyle = post.backgroundColor;
       context.fillRect(0, 0, post.bannerWidth, post.bannerHeight);
