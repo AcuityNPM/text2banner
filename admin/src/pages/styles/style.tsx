@@ -1,0 +1,16 @@
+export const bbMidSpace = {paddingLeft: "56px", paddingRight: "56px"};
+export const bbForm = {background: "#ffffff", paddingBlock: "24px", paddingInline: "24px", border: "1px solid #eaeaef", borderRadius: "4px", boxShadow: "0px 1px 4px rgba(33, 33, 52, 0.1)"}
+export const bbNextline = {fontSize: "18px", paddingBottom: "18px", display: "flex", justifyContent: "flex-start", gap: "16px"}
+export const bbFormLabel = {width: "100%", display: "block"}
+export const bbFormLabel2 = {width: "100%", display: "flex", justifyContent: "flex-start"}
+export const bbFormLabelSpan = {fontSize: "1.2rem", fontWeight: "600", color: "#32324d", lineHeight: "1.33", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", display: "block", marginBottom: "4px"}
+export const bbFormLabelRequired = {fontSize: "1.4rem", lineHeight: "1em", color: "#d02b20"}
+export const bbFormLabelWrap = {background: "#ffffff", border: "1px solid #dcdce4", borderRadius: "4px", paddingInlineStart: "0", outline: "none", boxShadow: "none", transitionProperty: "border-color, box-shadow, fill", transitionDuration: "0.2s", display: "flex"}
+export const bbFormLabelHint = {fontSize: "1.4rem", fontWeight: "400", lineHeight: "2.2rem", paddingBlock: "8px", paddingInline: "16px"}
+export const bbFormLabelInput = {background: "inherit", width: "100%", fontSize: "1.4rem", fontWeight: "400", lineHeight: "2.2rem", paddingBlock: "8px", paddingInline: "16px", border: "none", borderRadius: "4px"}
+export const bbFormLabelArea = {background: "#ffffff", width: "100%", height: "80px", fontSize: "1.4rem", lineHeight: "1.5", color: "#32324d", paddingBlock: "8px", paddingInline: "16px", border: "1px solid #dcdce4", borderRadius: "4px", display: "block"}
+export const bbBackLine = {minHeight: "22px", paddingBottom: "8px"}
+export const bbHeader = {paddingTop: "24px", paddingBottom: "40px"}
+export const bbHeaderH1 = {fontSize: "3.2rem", fontWeight: "600", lineHeight: "1.25", color: "#32324d"}
+export const bbHeaderP = {minHeight: "24px"}
+export const bbSubmit = {background: "#eaeaef", fontSize: "1.2rem", fontWeight: "600", color: "#666687", lineHeight: "1.33", width: "200px", height: "3.2rem", marginTop: "24px", border: "1px solid #d9d8ff", cursor: "default"}
