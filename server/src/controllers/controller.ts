@@ -15,7 +15,7 @@ const controller = ({ strapi }: { strapi: Core.Strapi }) => ({
       context.fillRect(0, 0, post.bannerWidth, post.bannerHeight);
 
       // Fill the text to banner
-      if (!post.title) {
+      if (post.title) {
         let textArr = post.title.split('\n');
         let numNext = textArr.length;
             numNext = (numNext > 0) ? numNext - 1 : 0;
